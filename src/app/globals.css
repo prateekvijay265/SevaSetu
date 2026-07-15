@@ -33,6 +33,16 @@
   --blue:        #2558A0;
   --blue-light:  #EBF1FA;
 
+  /* AI-Themed & Glassmorphism Tokens */
+  --ai-cyan:     #00F2FE;
+  --ai-blue:     #4FACFE;
+  --ai-indigo:   #6366F1;
+  --ai-purple:   #A855F7;
+  --ai-emerald:  #10B981;
+  --glass-bg:    rgba(255, 255, 255, 0.68);
+  --glass-border:rgba(255, 255, 255, 0.5);
+  --glass-shadow:0 16px 40px rgba(31, 38, 135, 0.08);
+
   /* Structural */
   --border:      #E5DDD4;
   --border-dark: #C8BFB4;
@@ -280,6 +290,53 @@ p { color: var(--ink-2); line-height: 1.8; }
 
 .no-scroll { -ms-overflow-style: none; scrollbar-width: none; }
 .no-scroll::-webkit-scrollbar { display: none; }
+
+/* ─── AI THEMED & GLASSMORPHISM UTILITIES ──────────── */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  border-radius: var(--r-lg);
+  transition: all 0.3s var(--ease);
+}
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.88);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(31, 38, 135, 0.12), 0 0 25px rgba(79, 172, 254, 0.15);
+  border-color: rgba(79, 172, 254, 0.4);
+}
+
+.ai-gradient-text {
+  background: linear-gradient(135deg, var(--green) 0%, var(--ai-blue) 50%, var(--ai-indigo) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1.15em;
+  background-color: var(--ai-blue);
+  margin-left: 4px;
+  vertical-align: middle;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes waveFlow {
+  0% { transform: translateX(0) scaleY(1); }
+  50% { transform: translateX(-15%) scaleY(1.12); }
+  100% { transform: translateX(-30%) scaleY(1); }
+}
+.animated-divider-svg {
+  animation: waveFlow 14s ease-in-out infinite alternate;
+}
 
 /* ─── RESPONSIVE ──────────────────────────────────── */
 @media (max-width: 1024px) { .wrap { padding: 0 2rem; } .wrap-narrow { padding: 0 2rem; } }
