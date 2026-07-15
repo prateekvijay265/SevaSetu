@@ -12,6 +12,13 @@
   A world-class, human-centered digital platform built for <strong>SevaSetu Foundation</strong>, dedicated to empowering grassroots communities across India through education, women empowerment, environmental sustainability, and youth leadership since 2012.
 </p>
 
+### 🚀 Highlighted Platform Features:
+* 🎨 **Custom AI-themed hero banner** — Interactive 3D neural particle mesh with glowing node connections (`AINeuralMesh` in `@react-three/fiber`).
+* ✨ **Animated typing effect** — Real-time kinetic typing animation cycling through inspiring mission statements with a blinking cyan cursor.
+* 🌌 **Glassmorphism design** — Frosted translucent card overlays (`backdrop-filter: blur(16px)`), glowing borders, and soft ambient elevation.
+* 〰️ **Animated SVG section dividers** — Fluid, multi-layered vector wave curves animating organically across section boundaries.
+* 🎭 **AI-themed color palette** — Cutting-edge cyan, indigo, and emerald neural gradients integrated seamlessly with trustworthy editorial design.
+
 [**🌐 Explore Live Website**](https://sevasetu-liart.vercel.app/) · [**📖 Report Bug / Feedback**](https://github.com/prateekvijay265/SevaSetu/issues)
 
 </div>
