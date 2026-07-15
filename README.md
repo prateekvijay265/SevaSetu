@@ -1,5 +1,7 @@
 <div align="center">
 
+![SevaSetu Foundation AI Banner](banner.svg)
+
 # SevaSetu Foundation 🌿
 ### *Bridging Service and Social Impact*
 
