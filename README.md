@@ -2,7 +2,7 @@
 
 ![SevaSetu Foundation AI Banner](banner.svg)
 
-# SevaSetu Foundation 🌿
+
 ### *Bridging Service and Social Impact*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-2558A0?style=for-the-badge&logo=vercel)](https://sevasetu-liart.vercel.app/)
