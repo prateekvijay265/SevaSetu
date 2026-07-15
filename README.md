@@ -20,13 +20,13 @@
 
 ## 🌟 Key Features & Design Highlights
 
-The SevaSetu Foundation platform combines cutting-edge web engineering with emotionally resonant storytelling. Designed to rival top-tier global foundations (`Charity: Water`, `Stripe`, `Linear`), every detail has been meticulously crafted:
+The SevaSetu Foundation platform (`https://sevasetu-liart.vercel.app/`) combines cutting-edge web engineering with emotionally resonant storytelling. Designed to rival top-tier global foundations (`Charity: Water`, `Stripe`, `Linear`), every detail has been meticulously crafted around modern design practices:
 
-- **🎨 Custom AI-themed hero banner**: An interactive, multi-layered visual experience combining depth effects, ambient lighting, and organic particle dynamics that immediately capture user attention upon arrival.
-- **✨ Animated typing effect & micro-animations**: Engaging typographic reveals, kinetic headlines, and subtle micro-interactions powered by `Framer Motion` that guide the visitor's eye through critical impact statistics and mission statements.
-- **🌌 Glassmorphism & layered depth design**: Modern translucent card overlays, soft ambient shadows, and frosted-glass surfaces provide elegant visual hierarchy while maintaining pristine contrast and readability.
-- **〰️ Animated SVG section dividers**: Smooth, fluid vector curves and animated section boundaries break away from rigid box layouts, creating an organic, lifelike reading rhythm across multi-section pages.
-- **🎭 AI-themed & editorial color palette**: A harmonious balance between cutting-edge digital aesthetics (`#0F172A`, `#38BDF8`, `#10B981`) and warm, trustworthy editorial textures (`#FAF8F5`, `#1D6A45`, `#C0533A`, `#B5722A`) that evoke empathy and credibility.
+- 🎨 **Custom AI-themed hero banner**: An interactive, multi-layered visual experience combining depth effects, ambient lighting, and organic dynamics that immediately capture user attention upon arrival.
+- ✨ **Animated typing effect**: Engaging typographic reveals, kinetic headlines, and subtle micro-interactions powered by `Framer Motion` that guide the visitor's eye through critical impact statistics and mission statements.
+- 🌌 **Glassmorphism design**: Modern translucent card overlays, soft ambient shadows, and frosted-glass surfaces provide elegant visual hierarchy while maintaining pristine contrast and readability.
+- 〰️ **Animated SVG section dividers**: Smooth, fluid vector curves and animated section boundaries break away from rigid box layouts, creating an organic, lifelike reading rhythm across multi-section pages.
+- 🎭 **AI-themed color palette**: A harmonious balance between modern digital aesthetics and warm, trustworthy editorial textures (`#FAF8F5`, `#1D6A45`, `#C0533A`, `#B5722A`) that evoke empathy and credibility.
 
 ---
 
